@@ -1,0 +1,39 @@
+.footer {
+    position: relative;
+    z-index: -1;
+    font-size: 16px;
+    padding: 1% 5%;
+    background-color: #647E68;
+}
+
+.footer p {
+    width: 50%;
+    margin: 5px;
+    text-align: left;
+    color: #D8D8D8;
+}
+.footer-left {
+    padding: 10px;
+    text-align: left;
+}
+
+.footer-right {
+    font-size: 30px;
+    padding: 10px;
+    text-align: right;
+}
+
+.footer-right i {
+    color: #D8D8D8;
+    margin-left: 15px;
+}
+
+hr {
+  color: #D8D8D8;
+  margin: 0px auto;
+  border-width: 2px;
+}
+
+.footer-img {
+    width: 15%;
+}

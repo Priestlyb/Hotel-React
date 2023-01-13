@@ -1,0 +1,38 @@
+.newsletter {
+  position: relative;
+  z-index: -1;
+  margin: 25px;
+  padding: 1% 5%;
+}
+.newsletter-left {
+    padding: 50px;
+    background-color: #D8D8D8;
+}
+
+.newsletter-left h3, .newsletter-left p, input {
+  color: #182747;
+  text-align: left;
+}
+
+.newsletter-btn {
+  color: #182747;
+  font-size: 25px;
+  font-weight: 800;
+  border: none;
+  margin-top: 25px;
+  border-right: #182747 solid 2px;
+  border-left: #182747 solid 2px;
+  border-bottom: #182747 solid 2px;
+}
+
+.newsletter-img {
+  width: 100%;
+  object-fit: cover;
+  aspect-ratio: 16/9;
+}
+
+.newsletter-right {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}

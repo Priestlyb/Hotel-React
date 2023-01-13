@@ -1,0 +1,62 @@
+  *{
+    text-align: center;
+  }
+
+  #features {
+    position: relative;
+    z-index: -1;
+  }
+
+  .features-img {
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+
+  .col-check {
+    position: relative;
+    z-index: 1;
+    bottom: 100px;
+    width: 75%;
+    margin: auto;
+    padding: 1% 5%;
+    background-color: #fff;
+    box-shadow: -15px 15px 30px rgba(0, 0, 0, 0.3) ;
+    border-radius: 5px;
+  }
+
+  .col-reason {
+    width: 75%;
+    margin: 50px auto;
+  }
+  
+  .pricing-column {
+    font-weight: 800;
+    padding: 3% 1%;
+  }
+  
+  .pricing-column h3 {
+    font-weight: 800;
+  }
+
+  .card {
+    border: none;
+    font-family: "Josefin Sans";
+  }
+
+  .check-input {
+    border: none;
+    text-align: left;
+    border-bottom: #553939 solid 2px;
+  }
+
+  .check-btn {
+    color: #553939;
+    font-size: 25px;
+    font-weight: 800;
+    border: #553939 solid 0.5px;;
+  }
+
+  .reason-p {
+    text-align: left;
+    font-weight: 400;
+  }

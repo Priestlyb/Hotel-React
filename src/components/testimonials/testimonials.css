@@ -1,0 +1,31 @@
+#testimonials {
+    padding: 3% 15%;
+    text-align: center;
+    position: relative;
+    z-index: -1;
+    background-color: #D8D8D8;
+  }
+  
+  #testimonials h2 {
+    color: #182747;
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 2.5px;
+    line-height: 1.5;
+    font-family: "Bebas Neue";
+  }
+  
+  .testimonials-img {
+    margin: 25px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+  }
+
+  .testimonials-carousel {
+    margin: 30px auto;
+  }
+
+  em {
+    color: #182747;
+  }
+  
