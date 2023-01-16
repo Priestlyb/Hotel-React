@@ -1,6 +1,4 @@
 .newsletter {
-  position: relative;
-  z-index: -1;
   margin: 25px;
   padding: 1% 5%;
 }

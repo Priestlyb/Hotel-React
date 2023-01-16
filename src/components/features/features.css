@@ -1,12 +1,3 @@
-  *{
-    text-align: center;
-  }
-
-  #features {
-    position: relative;
-    z-index: -1;
-  }
-
   .features-img {
     aspect-ratio: 1/1;
     object-fit: cover;
@@ -17,6 +8,7 @@
     z-index: 1;
     bottom: 100px;
     width: 75%;
+    text-align: center;
     margin: auto;
     padding: 1% 5%;
     background-color: #fff;
@@ -45,8 +37,14 @@
 
   .check-input {
     border: none;
+    color: #553939;
     text-align: left;
     border-bottom: #553939 solid 2px;
+  }
+
+  .check-btn:hover {
+    background-color: var(--green);
+    color: var(--gray);
   }
 
   .check-btn {

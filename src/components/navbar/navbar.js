@@ -5,7 +5,7 @@ import logo from './logo-email.png'
 
 function navbar() {
   return (
-    <div class ='container'>
+    <div class ='container' id='navbar'>
 
     <nav class="navbar navbar-expand-md">
         <Link class="navbar-brand" href="#">
@@ -18,24 +18,17 @@ function navbar() {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav" Style="margin-left: auto;">
               <li class="nav-item">
-                <Link class="nav-link active" aria-current="page" href="#">Home</Link>
+                <a class="nav-link active" href="./">Home</a>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" href="#">Rooms</Link>
+              <a class="nav-link active" href="./rooms">Rooms</a>
               </li>
               <li class="nav-item">
-                <Link class="nav-link" href="#">Contact us</Link>
+                <a class="nav-link active" href="./about">About</a>
               </li>
-                <li class="nav-item dropdown">
-                  <Link class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Profile
-                  </Link>
-                  <ul class="dropdown-menu">
-                    <li><Link class="dropdown-item" href="#">Dashboard</Link></li>
-                    <li><Link class="dropdown-item" href="#">Setting</Link></li>
-                    <li><Link class="dropdown-item" href="#">Sign out</Link></li>
-                  </ul>
-                </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contact">Contact</a>
+              </li>
               <li class="nav-item">
                 <Link class="nav-link disabled">Best Hotel & Suite in Africa</Link>
               </li>

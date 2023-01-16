@@ -4,6 +4,9 @@ import "./quick-contact.css"
 function quickcontact() {
   return (
     <div class="quick-contact">
+
+        <button class="btt-btn btn" type="button" title="Back to top"><a href='#navbar'><i class="fa-solid fa-arrow-up"></i></a></button>
+
         <button class="quick-contact-btn btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><i class="fa-solid fa-message"></i></button>
 
         <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">

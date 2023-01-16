@@ -25,9 +25,8 @@ function features() {
       </div>
 
 
-    <div class="row col-check">
-
-        <div class="pricing-column col-lg-6 col-md-6">
+    <div class="col-check row">
+    <div class="pricing-column col-lg-6 col-md-6">
         <div class="card">
           <div class="card-header">
             <h3>Check In Date</h3>
@@ -49,7 +48,7 @@ function features() {
       <div class="card">
           <div class="card-header">
             <h3>Adult</h3>
-            <input className='check-input' type="Number" id="check-out" value="1" name="adult-number" />
+            <input className='check-input' type="Number" id="check-out" placeholder="1" name="adult-number" />
           </div>
         </div>
       </div>
@@ -58,7 +57,7 @@ function features() {
       <div class="card">
           <div class="card-header">
             <h3>Childern</h3>
-            <input className='check-input' type="Number" id="check-out" value="1" name="adult-number" />
+            <input className='check-input' type="Number" id="check-out" placeholder="1" />
           </div>
         </div>
       </div>
@@ -67,7 +66,7 @@ function features() {
       <div class="card">
           <div class="card-header">
             <h3>Rooms</h3>
-            <input className='check-input' type="Number" id="check-out" value="1" name="adult-number" />
+            <input className='check-input' type="Number" id="check-out" placeholder="1" pl name="adult-number" />
           </div>
         </div>
       </div>
@@ -75,12 +74,11 @@ function features() {
       <div class="pricing-column col-lg-12">  
       <div class="card">
           <div class="card-header">
-              <button class=" check-btn w-100 btn btn-lg btn-block btn-outline-success" type="button">Book now!</button>
+              <button class=" check-btn w-100 btn btn-lg btn-block" type="button">Check availability</button>
           </div>
         </div>
       </div>
-
-      </div>
+    </div>
 
 
       <div class="row col-reason">

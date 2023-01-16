@@ -1,13 +1,25 @@
 .quick-contact-btn {
     position: fixed;
     top: 85%;
-    right: 30px;
-    font-size: 18px;
-    color: #D8D8D8;
+    right: 15px;
+    font-size: 14px;
+    border-radius: 100%;
+    background-color: #182747;
+}
+
+.btt-btn {
+    position: fixed;
+    top: 75%;
+    right: 15px;
+    font-size: 14px;
     border-radius: 100%;
     background-color: #182747;
 }
 
 .quick-contact-btn i {
+    color: #D8D8D8;
+}
+
+.btt-btn i {
     color: #D8D8D8;
 }

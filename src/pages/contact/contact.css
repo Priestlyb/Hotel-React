@@ -1,0 +1,77 @@
+.contact {
+    margin: 5%;
+    padding: 50px;
+    color: #fff;
+    text-align: left;
+    background-color: #fff;
+    background-image: url(./map.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 80%;
+    position: relative;
+    z-index: 1;
+}
+
+.contact-bg {
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 70%;
+    z-index: -1;
+    object-fit: cover;
+    position: absolute;
+    background-color: #562B08;
+}
+
+.contact-title {
+    text-align: left;
+    font-weight: 800;
+    font-size: 3rem;
+    position: relative;
+}
+
+.contact-sub {
+    color: #fff;
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+.address {
+    color: #fff;
+    text-align: left;
+    margin-bottom: 2px;
+}
+
+.address-text {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    margin-top: 1px;
+    margin-bottom: 30px;
+}
+
+.contact-left {
+    padding: 10px;
+    text-align: left;
+}
+
+.contact-right {
+    font-size: 30px;
+    padding: 10px;
+    text-align: right;
+}
+
+.contact-right i {
+    color: #fff;
+    margin-left: 15px;
+}
+
+.contact-btn {
+    padding: 10px;
+    color: #D8D8D8;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: #182747;
+}
