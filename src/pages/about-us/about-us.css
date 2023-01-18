@@ -2,7 +2,6 @@
     padding: 100px;
     display: flex;
     align-items: center;
-    width: 100%;
     height: 25rem;
     background-color: #182747;
 }
@@ -35,7 +34,7 @@
     margin: 6.25rem;
 }
 
-.team-tittle {
+.team-title {
     font-weight: 900;
     padding-bottom: 10px;
     border-bottom:  solid 2px;
@@ -55,7 +54,7 @@
 }
 
 .quote {
-    font-size: 28px;
+    font-size: 1.7rem;
     text-align: left;
     margin: 0;
 }
@@ -84,7 +83,6 @@
 
 .more-team {
     text-align: center;
-    margin-bottom: 50px;
 }
 
 .more-team-img {
@@ -136,4 +134,56 @@
 
 .our {
     color: var(--green);
+}
+
+@media (max-width: 1028px) {
+    .about-container{
+        width: 100%;
+        margin: auto;
+        padding: 25px;
+        height: auto;
+    }
+
+    .about-title {
+        margin: 2%;
+    }
+
+    .about-title h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .col-img {
+        position: static;
+    }
+  
+    .about-img {
+      height: auto;
+    }
+
+    .team {
+        margin: auto;
+        z-index: -1;
+        position: relative;
+    }
+
+    .team-title {
+        margin-top: 25px;
+    }
+
+    .quote {
+        font-size: 1.3rem;
+    }
+
+    .ovmv {
+        margin-top: 25px;
+    }
+
+    .email {
+        padding: 25px;
+    }
+
+    .email p {
+        width: 100%;
+    }
 }

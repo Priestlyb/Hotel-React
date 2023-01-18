@@ -9,15 +9,15 @@
     background-size: cover;
     background-position: 80%;
     position: relative;
-    z-index: 1;
+    z-index: -1;
 }
 
 .contact-bg {
     top: 0;
-    right: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    opacity: 70%;
+    opacity: 75%;
     z-index: -1;
     object-fit: cover;
     position: absolute;

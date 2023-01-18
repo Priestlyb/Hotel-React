@@ -28,7 +28,7 @@ function contact() {
         </div>
 
         
-      <div className='contact-bg'><h1>________________________________________________________________________________________________________</h1></div>
+      <div className='contact-bg'></div>
 
       </div>
       

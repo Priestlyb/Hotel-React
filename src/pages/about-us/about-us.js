@@ -16,7 +16,7 @@ function aboutus() {
     </div>
 
     <div class='team container'>
-      <h2 className='team-tittle'>Meet Our People</h2>
+      <h2 className='team-title'>Meet Our People</h2>
 
       <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="4000">
         <div class="carousel-inner">
@@ -54,9 +54,9 @@ function aboutus() {
         </div>
 
         <div class='col-lg-6'>
-            <h1 className='quote-left'>''</h1>
+            <h1 className='quote-left'>,,</h1>
             <p className='quote'>Most of what I've learned in my career been during a period of hyper growth and change.</p>
-            <h1 className='quote-right'>''</h1>
+            <h1 className='quote-right'>,,</h1>
             <p className='team-position'>Co_Owner of Pristina</p>
             <h3 className='name'>Mr. Priestly Bassey</h3>
           </div>
@@ -73,9 +73,9 @@ function aboutus() {
         </div>
 
         <div class='col-lg-6'>
-            <h1 className='quote-left'>''</h1>
+            <h1 className='quote-left'>,,</h1>
             <p className='quote'>Most of what I've learned in my career been during a period of hyper growth and change.</p>
-            <h1 className='quote-right'>''</h1>
+            <h1 className='quote-right'>,,</h1>
             <p className='team-position'>Co_Owner of Pristina</p>
             <h3 className='name'>Miss. Pedita Bassey</h3>
           </div>
@@ -91,7 +91,7 @@ function aboutus() {
 
     <div class='more-team container'>
       <div class='row'>
-      <h1 className='team-tittle'>Explore more teams?</h1>
+      <h1 className='team-title'>Explore more teams?</h1>
 
       <div class='card col-lg-4'>
         <img class='more-team-img w-100' src='https://www.ekohotels.com/assets/img/gallery/ga-restaurant-12.jpg' alt='IMG' />

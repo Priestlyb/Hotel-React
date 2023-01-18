@@ -2,6 +2,7 @@
     margin: 25px;
     padding: 2% 5%;
   }
+
   .rooms-row {
     margin-bottom: 100px;
   }
@@ -42,4 +43,27 @@
     display: flex;
     align-items: center;
     padding: 2px;
+  }
+
+  @media (max-width: 1028px) {
+    .rooms {
+    margin: 0;
+    padding: 25px;
+  }
+  
+  .rooms-row {
+    margin-bottom: 10px;
+  }
+  
+  .rooms-left {
+      padding: 25px;
+      position: static;
+      box-shadow: none;
+  }
+  
+  .rooms-btn {
+    font-size: 1rem;
+    margin-top: 10px;
+    border: #182747 solid 2px;
+  }
   }

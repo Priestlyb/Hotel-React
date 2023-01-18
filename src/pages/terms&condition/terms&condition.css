@@ -1,5 +1,5 @@
 .terms {
-    margin: 50px;
+    padding: 50px;
     color: var(--navy);
 }
 .terms-title {
@@ -14,4 +14,11 @@
 
 .terms-items {
     font-size: 1.1rem;
+}
+
+@media (max-width: 1028px) {
+    .terms {
+        padding: 25px;
+
+    }
 }
