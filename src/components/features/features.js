@@ -62,7 +62,7 @@ function features() {
         </div>
       </div>
 
-      <div class="pricing-column col-lg-4 col-md-6"> 
+      <div class="pricing-column col-lg-4 col-md-12"> 
       <div class="card">
           <div class="card-header">
             <h3>Rooms</h3>

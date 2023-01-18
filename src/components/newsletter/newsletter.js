@@ -6,6 +6,7 @@ function newsletter() {
   return (
     <div class="newsletter">
         <div class="row">
+
             <div class="newsletter-left col-lg-6">
                 <h3>Newsletter</h3>
                 <p>Get Update Through Email.</p>
@@ -21,9 +22,11 @@ function newsletter() {
               </div>
             </form>
             </div>
+
             <div class="newsletter-right col-lg-6">
               <img src={map} class="newsletter-img" alt="Map" />
             </div>
+            
         </div>
         </div>
   )
