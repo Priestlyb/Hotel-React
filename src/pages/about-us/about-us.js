@@ -77,7 +77,7 @@ function aboutus() {
             <p className='quote'>Most of what I've learned in my career been during a period of hyper growth and change.</p>
             <h1 className='quote-right'>,,</h1>
             <p className='team-position'>Co_Owner of Pristina</p>
-            <h3 className='name'>Miss. Pedita Bassey</h3>
+            <h3 className='name'>Miss. Perdita Bassey</h3>
           </div>
           
         </div>
@@ -166,7 +166,7 @@ function aboutus() {
           </div>
 
         <div class="col-12">
-          <button class="email-btn btn w-100" type="submit">Subscribe</button>
+          <button class="email-btn btn w-100 animate__animated animate__zoomInDown animate__delay-5s" type="submit">Subscribe</button>
         </div>
       </form>
 
